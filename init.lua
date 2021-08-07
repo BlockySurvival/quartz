@@ -155,7 +155,7 @@ if minetest.global_exists("stairsplus") then
 		tiles  = {"quartz_block.png"},
 		groups = {cracky=3, oddly_breakable_by_hand=1},
 		sounds = default.node_sound_glass_defaults()
-	})
+	}, "quartzblock")
 
 	stairsplus:register_all("quartz", "chiseled", "quartz:chiseled", {
 		description = "Chiseled Quartz",
@@ -170,7 +170,7 @@ if minetest.global_exists("stairsplus") then
 			"quartz_pillar_side.png"},
 		groups = {cracky=3, oddly_breakable_by_hand=1},
 		sounds = default.node_sound_glass_defaults()
-	})
+	}, "quartzstair")
 end
 
 --
